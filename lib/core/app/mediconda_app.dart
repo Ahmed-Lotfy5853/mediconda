@@ -6,7 +6,7 @@ import '../navigation/app_route.dart';
 import '../navigation/routes.dart';
 
 class MedicondaApp extends StatelessWidget {
-  const MedicondaApp({super.key});
+  const MedicondaApp({super.key, required home});
 
   @override
   Widget build(BuildContext context) {

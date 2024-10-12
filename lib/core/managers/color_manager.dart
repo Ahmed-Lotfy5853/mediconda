@@ -19,5 +19,5 @@ class ColorManager{
   static Color lightGreen = const Color(0xff647A84);
   static Color red =  Colors.red;
 
-
+  // static Color aBackground
 }

@@ -19,6 +19,7 @@ class PrimaryButton extends StatelessWidget {
           fixedSize: width != null
               ? Size(width!, 50)
               : null,
+          backgroundColor: Color(0xFF4157FF)
         ),
         child: Text(
           text,
