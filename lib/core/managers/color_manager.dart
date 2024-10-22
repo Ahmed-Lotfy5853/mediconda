@@ -7,7 +7,7 @@ class ColorManager{
   static Color blue = const Color(0xff2F80ED);
   static Color darkestBlue = const Color(0xff3D50E7);
   static Color darkBlue = const Color(0xff4157FF);
-  static Color lightBlue = const Color.fromRGBO(9, 15, 71, 0.7);
+  static Color lightBlue = const Color.fromRGBO(9, 15, 71, 0.7019607843137254);
   static Color lighterBlue = const Color.fromRGBO(9, 15, 71, 0.45);
   static Color darkerBlue = const Color(0xff090F47);
   static Color white = Colors.white;
@@ -18,6 +18,6 @@ class ColorManager{
   static Color softWhite = const Color(0xffF7FBFF);
   static Color lightGreen = const Color(0xff647A84);
   static Color red =  Colors.red;
-
+  static Color darker2blue = const Color(0xff2f77fd);
 
 }
