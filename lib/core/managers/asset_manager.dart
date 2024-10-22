@@ -6,11 +6,11 @@ class AssetManager{
   static const String googleMaps = '${_directoryPath}google_maps.jpg';
   static const String instagram = '${_directoryPath}instagram.jpg';
   static const String linkedin = '${_directoryPath}linkedin.jpg';
-  static const String money = '${_directoryPath}money.png';
   static const String noFavorite = '${_directoryPath}no_favorite.jpg';
   static const String noNotification = '${_directoryPath}no_notification.jpg';
   static const String onboarding_2 = '${_directoryPath}onboarding_2.jpg';
-  static const String rating = '${_directoryPath}rating.jpg';
+  static const String money_1 = '${_directoryPath}money_1.png';
+  static const String star_rating_1 = '${_directoryPath}star_rating_1.png';
   static const String twitter = '${_directoryPath}twitter.jpg';
 
 }
