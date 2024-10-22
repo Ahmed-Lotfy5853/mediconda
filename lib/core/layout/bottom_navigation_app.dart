@@ -31,6 +31,7 @@ class _BottomNavigationAppState extends State<BottomNavigationApp> {
         borderRadius: const BorderRadius.vertical(top: Radius.circular(20)), // Rounded corners
         child: BottomNavigationBar(
           items: items,
+          iconSize: 30.0,
           backgroundColor: ColorManager.darkerBlue, // Background color for BottomNavigationBar
           currentIndex: cindex,
           selectedItemColor: ColorManager.primaryColor,
