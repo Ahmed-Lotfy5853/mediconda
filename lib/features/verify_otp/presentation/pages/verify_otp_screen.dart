@@ -5,6 +5,7 @@
  */
 
 
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -12,6 +13,7 @@ import 'package:mediconda/core/managers/extensions.dart';
 import 'package:mediconda/core/widgets/primary_button.dart';
 import '../../../../core/managers/asset_manager.dart';
 import '../../../../core/managers/color_manager.dart';
+
 import '../../../../core/managers/font_style_manager.dart';
 import '../../../../core/navigation/routes.dart';
 
@@ -22,12 +24,15 @@ class VerifyOtpScreen extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Scaffold(
+
       backgroundColor: const Color(0xffF5F5F5),
+
 
       body: Column(
         children: [
           Padding(
             padding: EdgeInsets.only(top: 70.h, bottom: 59.h),  // Responsive padding
+
             child:         CircleAvatar(
               radius: 35,
               backgroundColor: ColorManager.white,
@@ -35,6 +40,7 @@ class VerifyOtpScreen extends StatelessWidget {
                 SvgAssetManager.logo,
               ),
             ),
+
 
           ),
 
@@ -60,6 +66,7 @@ class VerifyOtpScreen extends StatelessWidget {
 
           /******************* Customer Role Description *******************/
           Padding(
+
             padding: EdgeInsets.only(top: 85.h,right: 16.w, left: 16.w),  // Responsive padding
             child: SizedBox(
               width: 405.w,    // Responsive width
@@ -68,6 +75,7 @@ class VerifyOtpScreen extends StatelessWidget {
                   '1 - If you want to search for medicines and\n     purchase them from nearby pharmacies',
                   textAlign: TextAlign.start,
                   style: FontStyleManager.getOverPassRegular(color: Colors.grey[700], fontSize: 16.sp)  // Responsive font size
+
               ),
             ),
           ),
@@ -76,7 +84,9 @@ class VerifyOtpScreen extends StatelessWidget {
             padding: EdgeInsets.only(top: 10.h, bottom: 50.h),  // Responsive padding
             child: PrimaryButton(
                 onPressed: () {
+
                   context.addScreen(Routes.login);
+
                 },
                 text: 'Customer',
                 width: 310.w  // Responsive width
@@ -86,20 +96,24 @@ class VerifyOtpScreen extends StatelessWidget {
 
 
           /******************* Supplier Role Description *******************/
+
           Padding(
             padding: EdgeInsets.only(right: 16.w, left: 16.w),  // Responsive padding
             child: Text(
                 '2 - If you own a pharmacy and want to list the\n      available medicines on the app.',
                 textAlign: TextAlign.start,
                 style: FontStyleManager.getOverPassRegular(color: Colors.grey[700], fontSize: 16.sp)  // Responsive font size
+
             ),
           ),
 
           PrimaryButton(
+
               onPressed: (){
                 context.addScreen(Routes.login);
 
               },
+
               text: 'Supplier',
               width: 310.w  // Responsive width
           ),

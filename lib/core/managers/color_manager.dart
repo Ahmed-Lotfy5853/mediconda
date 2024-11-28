@@ -22,5 +22,5 @@ class ColorManager{
 
   static Color red =  Colors.red;
 
-
+  // static Color aBackground
 }
